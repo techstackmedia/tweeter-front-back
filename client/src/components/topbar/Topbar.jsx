@@ -4,12 +4,16 @@ import SearchIcon from "@mui/icons-material/Search";
 import PersonIcon from "@mui/icons-material/Person";
 import ChatIcon from "@mui/icons-material/Chat";
 import NotificationsIcon from "@mui/icons-material/Notifications";
+import { Link } from "react-router-dom";
+// import { Link } from "@react-navigation/native";
 
 const Topbar = () => {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">Tweeter</span>
+        <span className="logo">
+          <Link to="/" className='link'>Tweeter</Link>
+        </span>
         {/* <TwitterIcon className="twitter logo" /> */}
       </div>
 

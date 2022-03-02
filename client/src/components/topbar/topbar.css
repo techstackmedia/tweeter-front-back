@@ -13,7 +13,12 @@
 .twitter {
   color: #fff;
   position: relative;
-  left: 5px
+  left: 5px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
 }
 
 .topbarLeft {
